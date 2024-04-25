@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh; /* Set minimum height to viewport height */
+  position: relative; /* Set body position to relative */
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #131313;
+  color: white;
+}
+
+.logos img {
+  width: 150px;
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.website {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 100px;
+  margin-bottom: 20px;
+}
+
+.website h2 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1d1d1d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #333333;
+}
+
+#why-choose-us,
+#stay-connected,
+#get-in-touch {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.social-icons img {
+  width: 40px;
+  margin: 0 10px;
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: absolute; /* Set footer position to absolute */
+  bottom: 0; /* Align footer to bottom */
+  width: 100%; /* Make footer span the entire width */
+}
+
